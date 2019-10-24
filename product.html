@@ -1,0 +1,455 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>product</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <script src="js/bootstrap.min.js"></script> 
+  <script src="js/jquery-3.3.1.js"></script>
+ 
+ <!-- <link href="{{ asset('bootstrap_3.0.3/css/bootstrap.min.css') }}" rel="stylesheet" id="bootstrap-css"> 
+<script src="{{asset('bootstrap_3.0.3/js/bootstrap.min.js') }}"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- @yield("stripe-js") -->
+  </head>
+
+  <!-- navigation -->
+        <section>
+                <div class="navigataion">
+                    <div class="logo">
+                        <h6>ShopGood</h6>
+                        <div class="images">
+                            
+                            <img src="images/profile-image.png" alt="profile-image">
+                        </div>
+                    </div>
+                        <div class="search-bar">
+                            <input type="text" name="search" value="" class="form-control" placeholder="Search for products">
+                        <a href="">search</a>
+                        </div>
+                    <div class="links">
+                        <a href="home.html" style="">Home</a>
+                        <a href="product.html" style="">Product</a>
+                        <a href="myorder.html" style="">My Order</a>
+                        <a href="cart.html" style="">Cart</a>
+                        <a href="signup.html"  style="">sign up</a>
+                        <a href="login.html"  style="">login</a>
+                
+                    </div>
+                </div> 
+
+                <div class="nav-header">
+                        <div class="header">
+                        <h1>Boogie Best Shopping </h1>
+                        <p>Our most popular products based on sales. Updated hourly.</p>
+                        </div>
+                </div>
+        </section>
+<!-- end of Navigation -->
+
+
+
+<section>
+
+         <div class=" container homePageProduct">
+             <div class="row">
+                 <div class="col-md-2">
+                    <!-- product size bar -->
+                    <section class="sidebar-container">
+                            <div class="sidebar">
+                                <div class="side-head">
+                                    <h5>Categories</h5>
+                               </div>
+                                <div class="price">
+                                  <b>price:</b>   
+                                    <a href="">High to Low</a> |
+                                    <a href="">Low to High</a>
+                                </div>
+                            </div>
+                            
+                            <div class="sidebar-content">
+                               <li class=""><a href="">Playstation</a></li>
+                               <li class=""><a href="">men</a></li>
+                               <li class=""><a href="">women</a></li>
+                               <li class=""><a href="">consoles</a></li>
+                               <li class=""><a href="">phone</a></li>
+                               <li class=""><a href="">pads</a></li>
+                            </div>
+                </section>  
+                
+                 </div>
+                 <div class="col-md-10">
+                          <h5 class="content-header">feautured products</h5> 
+                             <div class="imagesContainer">
+                                <div class="row float">
+                                
+                                       <div class="images col-md-4">
+                                          <a href="detail.html"><img src="images/socom.jpg" alt="socom"></a> 
+                                          <div class="info">
+                                                <li  class="desc">this is a great game and you will love it</li>
+                                                <li><b>Socom </b></li>
+                                                <li  class="make">By playstation</li>
+                                                <li><b>price: </b>&#8358;4,000</li>
+                                                <li class="text-warning"><b>ratings 10/10</b></li>
+                                                <form action="" method="POST">
+                                                    <input type="hidden" name="id" value="id">
+                                                    <button type="submit" name="cart" >add to cart</button>
+                                                </form>
+                                          </div>
+                                       </div>
+   
+                                       <div class="images col-md-4">
+                                            <a href="detail.html"><img src="images/blue_shoe.jpg" alt="blue_shoe"></a> 
+                                            <div class="info">
+                                                  <li  class="desc">this is a great shoe and you will love it</li>
+                                                  <li><b>Blue shoe</b></li>
+                                                  <li  class="make">By Levin</li>
+                                                  <li><b>price: </b>&#8358;4,000</li>
+                                                  <li class="text-warning"><b>ratings 10/10</b></li>
+                                                  <form action="" method="POST">
+                                                      <input type="hidden" name="id" value="id">
+                                                      <button type="submit" name="cart" >add to cart</button>
+                                                  </form>
+                                            </div>
+                                         </div>
+                                  
+                                         <div class="images col-md-4">
+                                                <a href="detail.html"><img src="images/chair_1.jpg" alt="chair_1"></a> 
+                                                <div class="info">
+                                                      <li  class="desc">this is a great office chair and you will love it</li>
+                                                      <li><b>Red chair</b></li>
+                                                      <li  class="make">By fountain valley</li>
+                                                      <li><b>price: </b>&#8358;7,000</li>
+                                                      <li class="text-warning"><b>ratings 10/10</b></li>
+                                                      <form action="" method="POST">
+                                                          <input type="hidden" name="id" value="id">
+                                                          <button type="submit" name="cart" >add to cart</button>
+                                                      </form>
+                                                </div>
+                                             </div>
+                                      
+                                             <div class="images col-md-4">
+                                                    <a href="detail.html"><img src="images/godofwar.jpg" alt="godofwar"></a> 
+                                                    <div class="info">
+                                                          <li  class="desc">this is a great game and you will love it</li>
+                                                          <li><b>God of war</b></li>
+                                                          <li  class="make">By playstation</li>
+                                                          <li><b>price: </b>&#8358;4,000</li>
+                                                          <li class="text-warning"><b>ratings 10/10</b></li>
+                                                          <form action="" method="POST">
+                                                              <input type="hidden" name="id" value="id">
+                                                              <button type="submit" name="cart" >add to cart</button>
+                                                          </form>
+                                                    </div>
+                                                 </div>
+             
+                                                 <div class="images col-md-4">
+                                                      <a href="detail.html"><img src="images/callofduty_modern-warfare.jpg" alt="callofduty_modern-warfare"></a> 
+                                                      <div class="info">
+                                                            <li  class="desc">this is a great game and you will love it</li>
+                                                            <li><b>call of duty</b></li>
+                                                            <li  class="make">By playstation</li>
+                                                            <li><b>price: </b>&#8358;4,000</li>
+                                                            <li class="text-warning"><b>ratings 10/10</b></li>
+                                                            <form action="" method="POST">
+                                                                <input type="hidden" name="id" value="id">
+                                                                <button type="submit" name="cart" >add to cart</button>
+                                                            </form>
+                                                      </div>
+                                                   </div>
+                                            
+                                                   <div class="images col-md-4">
+                                                          <a href="detail.html"><img src="images/bag_1.jpg" alt="bag_1"></a> 
+                                                          <div class="info">
+                                                                <li  class="desc">this is a great back pack and you will love it</li>
+                                                                <li><b>Black bag</b></li>
+                                                                <li  class="make">By levis</li>
+                                                                <li><b>price: </b>&#8358;7,000</li>
+                                                                <li class="text-warning"><b>ratings 10/10</b></li>
+                                                                <form action="" method="POST">
+                                                                    <input type="hidden" name="id" value="id">
+                                                                    <button type="submit" name="cart" >add to cart</button>
+                                                                </form>
+                                                          </div>
+                                                       </div>
+                                                
+                                             <div class="images col-md-4">
+                                                    <a href="detail.html"><img src="images/women8.jpg" alt="women8"></a> 
+                                                    <div class="info">
+                                                          <li  class="desc">this is a great women dress and you will love it</li>
+                                                          <li><b>women dress</b></li>
+                                                          <li  class="make">By Shantel</li>
+                                                          <li><b>price: </b>&#8358;10,000</li>
+                                                          <li class="text-warning"><b>ratings 10/10</b></li>
+                                                          <form action="" method="POST">
+                                                              <input type="hidden" name="id" value="id">
+                                                              <button type="submit" name="cart" >add to cart</button>
+                                                          </form>
+                                                    </div>
+                                                 </div>
+
+                                                 <div class="images col-md-4">
+                                                        <a href="detail.html"><img src="images/all_stars.jpg" alt="all_stars"></a> 
+                                                        <div class="info">
+                                                              <li  class="desc">this is a great shoe and you will love it</li>
+                                                              <li><b>All stars</b></li>
+                                                              <li  class="make">By All Stars</li>
+                                                              <li><b>price: </b>&#8358;5,000</li>
+                                                              <li class="text-warning"><b>ratings 10/10</b></li>
+                                                              <form action="" method="POST">
+                                                                  <input type="hidden" name="id" value="id">
+                                                                  <button type="submit" name="cart" >add to cart</button>
+                                                              </form>
+                                                        </div>
+                                                     </div>
+
+                                                     
+                                                 <div class="images col-md-4">
+                                                        <a href="detail.html"><img src="images/console_2.jpg" alt="console_2"></a> 
+                                                        <div class="info">
+                                                              <li  class="desc">this is a great console and you will love it</li>
+                                                              <li><b>Playstation 4</b></li>
+                                                              <li  class="make">By Playstation</li>
+                                                              <li><b>price: </b>&#8358;120,000</li>
+                                                              <li class="text-warning"><b>ratings 10/10</b></li>
+                                                              <form action="" method="POST">
+                                                                  <input type="hidden" name="id" value="id">
+                                                                  <button type="submit" name="cart" >add to cart</button>
+                                                              </form>
+                                                        </div>
+                                                     </div>
+                                          
+                                </div>
+                       
+                             </div>
+                 </div>
+             </div>
+         </div> 
+
+         <div class="pagination">
+               <!-- {{$products->appends(Request()->input())->links()}} -->
+         </div>  
+</section>  
+
+
+
+<!--most ordered-->
+<section>
+    <div class="products">
+        <div class="mostOrdered">
+            <h3>Most ordered items...</h3>
+       
+            <div class="ordered-items">
+               <a href="detail.html"><img src="images/kingdom_heart.jpg" alt="kingdomheart"></a>
+                <ul>
+                    <li><b>kingdom heart</b></li>
+                    <li class="make text-primary">By Playstaion</li>
+                    <li><b>price: </b>&#8358;6,000</li>
+                    <li><b class="ratings">ratings 10/10</b></li>
+                </ul>
+            </div>
+
+            <div class="ordered-items">
+                    <a href="detail.html"><img src="images/shoe4.jpg" alt="shoe4"></a>
+                     <ul>
+                         <li><b>Nike Boot</b></li>
+                         <li class="make text-primary">By Air Nike</li>
+                         <li><b>price: </b>&#8358;24,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                     </ul>
+           </div>
+
+           <div class="ordered-items">
+                <a href="detail.html"><img src="images/men_suit.jpg" alt="men_suit"></a>
+                 <ul>
+                     <li><b>men suit</b></li>
+                     <li class="make text-primary">By Candy</li>
+                     <li><b>price: </b>&#8358;28,000</li>
+                     <li><b class="ratings">ratings 10/10</b></li>
+                 </ul>
+       </div>
+        
+        </div>
+    </div>
+</section>
+
+
+  
+ <div class="container mightLike">
+           <h3>Products you might also Like...</h3>
+            <div class="row">
+        
+             <div class="mightLike_items">
+                   <a href="detail.html"><img src="images/palm_slippers.jpg" alt="palm_slippers"></a>
+                   <ul>
+                        <li><b>Nike slippers</b></li>
+                        <li>Nike</li>
+                        <li class="text-danger">&#8358;3,000</li>
+                        <li><b class="ratings">ratings 10/10</b></li>
+                   </ul>
+             </div>
+
+             <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/women_shoe1.jpg" alt="women_shoe1"></a>
+                    <ul>
+                         <li><b>women shoe</b></li>
+                         <li>shantel</li>
+                         <li class="text-danger">&#8358;6,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+              <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/madden.jpg" alt="madden"></a>
+                    <ul>
+                         <li><b>madden</b></li>
+                         <li>playstation</li>
+                         <li class="text-danger">&#8358;4,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+              <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/nba_2k19.jpg" alt="nba_2k19"></a>
+                    <ul>
+                         <li><b>nba_2k19</b></li>
+                         <li>playstation</li>
+                         <li class="text-danger">&#8358;5,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+
+              <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/women3.jpg" alt="women3"></a>
+                    <ul>
+                         <li><b>white dress</b></li>
+                         <li>nike</li>
+                         <li class="text-danger">&#8358;12,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+              <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/women_shoe.jpg" alt="women_shoe"></a>
+                    <ul>
+                         <li><b>Red shoe</b></li>
+                         <li>addidass</li>
+                         <li class="text-danger">&#8358;10,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+              
+        
+            </div>
+       </div>
+
+ <!-- might like for desktop -->
+ <div class="container mightLike_destop">
+           <h3>Products you might also Like...</h3>
+            <div class="row">
+        
+             <div class="mightLike_items">
+             <a href="detail.html"><img src="images/laptop.jpg" alt=""></a>
+                   <ul>
+                        <li><b>HP laptop</b></li>
+                        <li>HP</li>
+                        <li>&#8358;130,000</li>
+                        <li><b class="ratings">ratings 10/10</b></li>
+                   </ul>
+             </div>
+
+             <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/women_shoe.jpg" alt="women_shoe"></a>
+                    <ul>
+                         <li><b>Red shoe</b></li>
+                         <li>addidass</li>
+                         <li class="text-danger">&#8358;10,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+              <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/palm_slippers.jpg" alt="palm_slippers"></a>
+                    <ul>
+                         <li><b>Nike slippers</b></li>
+                         <li>Nike</li>
+                         <li class="text-danger">&#8358;3,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+ 
+              <div class="mightLike_items">
+                     <a href="detail.html"><img src="images/women_shoe1.jpg" alt="women_shoe1"></a>
+                     <ul>
+                          <li><b>women shoe</b></li>
+                          <li>shantel</li>
+                          <li class="text-danger">&#8358;6,000</li>
+                          <li><b class="ratings">ratings 10/10</b></li>
+                     </ul>
+               </div>
+ 
+ 
+               <div class="mightLike_items">
+                     <a href="detail.html"><img src="images/nba_2k19.jpg" alt="nba_2k19"></a>
+                     <ul>
+                          <li><b>nba_2k19</b></li>
+                          <li>playstation</li>
+                          <li class="text-danger">&#8358;5,000</li>
+                          <li><b class="ratings">ratings 10/10</b></li>
+                     </ul>
+               </div>
+ 
+               <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/madden.jpg" alt="madden"></a>
+                    <ul>
+                         <li><b>madden</b></li>
+                         <li>playstation</li>
+                         <li class="text-danger">&#8358;4,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+              <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/pad_4.jpg" alt="pad_4"></a>
+                    <ul>
+                         <li><b>pad</b></li>
+                         <li>playstation</li>
+                         <li class="text-danger">&#8358;5,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+              <div class="mightLike_items">
+                   <a href="detail.html"><img src="images/levis-shoes.jpg" alt="levis-shoes"></a>
+                   <ul>
+                        <li><b>Black convers</b></li>
+                        <li>chinos</li>
+                        <li class="text-danger">&#8358;6,000</li>
+                        <li><b class="ratings">ratings 10/10</b></li>
+                   </ul>
+             </div>
+        
+            </div>
+       </div>
+
+
+       <footer>
+            <div class="backToTop"><p>Back To Top</p></div>
+            <div class='footer'>
+              <p>charles shopping place &copy; 2019, Alright Reserved</p>
+            </div>
+       </footer>
+     
+  </body>
+  </html>
+

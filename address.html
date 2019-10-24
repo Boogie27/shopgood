@@ -1,0 +1,137 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>address</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <script src="js/bootstrap.min.js"></script> 
+  <script src="js/jquery-3.3.1.js"></script>
+ 
+ <!-- <link href="{{ asset('bootstrap_3.0.3/css/bootstrap.min.css') }}" rel="stylesheet" id="bootstrap-css"> 
+<script src="{{asset('bootstrap_3.0.3/js/bootstrap.min.js') }}"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- @yield("stripe-js") -->
+  </head>
+
+  <!-- navigation -->
+        <section>
+                <div class="navigataion">
+                    <div class="logo">
+                        <h6>ShopGood</h6>
+                        <div class="images">
+                            
+                            <img src="images/profile-image.png" alt="profile-image">
+                        </div>
+                    </div>
+                        <div class="search-bar">
+                            <input type="text" name="search" value="" class="form-control" placeholder="Search for products">
+                            <a href="">search</a>
+                        </div>
+                    <div class="links">
+                        <a href="home.html" style="">Home</a>
+                        <a href="product.html" style="">Product</a>
+                        <a href="myorder.html" style="">My Order</a>
+                        <a href="cart.html" style="">Cart</a>
+                        <a href="signup.html"  style="">sign up</a>
+                        <a href="login.html"  style="">login</a>
+                
+                    </div>
+                </div> 
+
+                <div class="nav-header">
+                        <div class="header">
+                        <h1>Boogie Best Shopping </h1>
+                        <p>Our most popular products based on sales. Updated hourly.</p>
+                        </div>
+                </div>
+        </section>
+<!-- end of Navigation -->
+
+        <div class="container-detail">  
+            <div class="banner">
+                <h6>Address details</h6>
+            </div>
+             <div class="container account-details">
+             <div class="alertForm"> </div> 
+                <form action="myorder.html" method="post" class="address_form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control"  name="name" value="Enter name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="surnamee">Surname:</label>
+                            <input type="text" class="form-control" name="surname" value="Enter surname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="surnamee">email:</label>
+                            <li>example@gmail.com</li>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="phone one">
+                                    <label for="phone">Phone one:</label>
+                                    <input type="text" class="form-control" name="phone_one" value="Phone one" required>
+                                </div>
+                                <div class="phone two">
+                                    <label for="phone">Phone two:</label>
+                                    <input type="text" class="form-control" name="phone_two" value="Phone two" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender" style="color: orange">Gender:</label>
+                            <select name="gender" id="gender" class="form-control">
+                                <option value="">Select</option>
+                                <option value="male" >Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">address:</label>
+                            <input type="text" class="form-control" name="address" value="Address" required>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="state">
+                                    <label for="state">State:</label>
+                                    <input type="text" class="form-control" name="state" value="State" required>
+                                </div>
+                                <div class="country">
+                                    <label for="country">Country:</label>
+                                    <input type="text" class="form-control" name="country" value=Country required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                        <button type="submit" name="submit" class="form-control btn btn-warning">Save</button>
+                        <input type='hidden' name='remember_token' value=''>
+                        </div>
+                </form>
+        </div>
+
+        
+
+             
+
+        <footer>
+                <div class="backToTop"><p>Back To Top</p></div>
+                <div class='footer'>
+                  <p>charles shopping place &copy; 2019, Alright Reserved</p>
+                </div>
+           </footer>
+         
+        </body>
+     </html>
+     
+
+
+  
+ 

@@ -1,0 +1,325 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>detail</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <script src="js/bootstrap.min.js"></script> 
+  <script src="js/jquery-3.3.1.js"></script>
+ 
+ <!-- <link href="{{ asset('bootstrap_3.0.3/css/bootstrap.min.css') }}" rel="stylesheet" id="bootstrap-css"> 
+<script src="{{asset('bootstrap_3.0.3/js/bootstrap.min.js') }}"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- @yield("stripe-js") -->
+  </head>
+
+  <!-- navigation -->
+        <section>
+                <div class="navigataion">
+                    <div class="logo">
+                        <h6>ShopGood</h6>
+                        <div class="images">
+                            
+                            <img src="images/profile-image.png" alt="profile-image">
+                        </div>
+                    </div>
+                        <div class="search-bar">
+                            <input type="text" name="search" value="" class="form-control" placeholder="Search for products">
+                        <a href="">search</a>
+                        </div>
+                    <div class="links">
+                        <a href="home.html" style="">Home</a>
+                        <a href="product.html" style="">Product</a>
+                        <a href="myorder.html" style="">My Order</a>
+                        <a href="cart.html" style="">Cart</a>
+                        <a href="signup.html"  style="">sign up</a>
+                        <a href="login.html"  style="">login</a>
+                
+                    </div>
+                </div> 
+
+                <div class="nav-header">
+                        <div class="header">
+                        <h1>Boogie Best Shopping </h1>
+                        <p>Our most popular products based on sales. Updated hourly.</p>
+                        </div>
+                </div>
+        </section>
+<!-- end of Navigation -->
+
+      <div class="container ">
+           <div class="details-container">
+                <div class="detail-heading">
+                    <div class="header">
+                        <h6>HP laptop</h6>
+                        <li>ratings: 10/10</li>
+                    </div>
+                    <div class="details">
+                        <li> this is the best product you can possibly find</li>
+                    </div>
+                    <div class="logo">
+                        <span class="detailLogo">Boogie's <span class="text-warning">choice</span></span>
+                        <span class="detail-here">for "laptops"</span>
+                    </div>
+                </div>
+            
+             <div class="detail-image">
+                 <div class="image">
+                    <img src="images/laptop.jpg" alt="laptop">
+                     <ul class="detail-mobile">
+                        <li>price: <b>&#8358;130,000</b></li>
+                        <li>Quantity instock: <b>3</b></li>
+                        <div class="button">
+                            <form action="checkout.html" method="POST">
+                                <input type="hidden" name="id" value="">
+                                <button type="submit" name="cart">Add to Cart</button>
+                            </form>
+                            <li>
+                                <a href="thankYou.html">Buy Now</a>
+                            </li>
+                        </div>
+                     </ul>
+                 </div>
+            </div>
+
+                 <div class="detail-description">
+                    <div class="header">
+                        <h6>HP laptop</h6>
+                        <li>ratings: 10/10</li>
+                    </div>
+                    <div class="details">
+                        <li>this is the best product you can possibly find
+                            keep coding and you become the best at it. </li>
+                    </div>
+                    <div class="logo">
+                        <span class="detailLogo">Boogie's <span class="text-warning">choice</span></span>
+                        <span class="detail-here">for "laptop"</span>
+                    </div>
+                </div>
+            
+                  <div class="detail-desktop">
+                     <li>price: <b>&#8358;130,000</b></li>
+                     <li>this is the best product you can possibly find
+                          keep codding and you become the best at it</li>
+                     <li><b class="text-danger">only 12 left in stock.</b></li>
+                     <li>Quantity instock: <b class="badge bg-warning">1</b></li>
+                     <div class="button">
+                        <form action="checkout.html" method="POST">
+                            <input type="hidden" name="id" value="">
+                            <button type="submit" name="cart">Add to Cart</button>
+                        </form>
+                        <li class="buyNow">
+                                <a href="thankYou.html">Buy Now</a>
+                        </li>
+                        <div class="price-footer">
+                         <li>price: <b>&#8358;130,000</b></li>
+                        </div>
+                     </div>
+                 
+             </div>
+           </div>
+      </div>
+  
+
+
+
+
+ <div class="container mightLike">
+           <h3>Products you might also Like...</h3>
+            <div class="row">
+        
+            <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/pad_1.jpg" alt="pad_1"></a>
+                        <ul>
+                                <li><b>Pad</b></li>
+                                <li>Playstation</li>
+                                <li>&#8358;4,000</li>
+                                <li><b class="ratings">ratings 10/10</b></li>
+                        </ul>
+            </div>
+
+            <div class="mightLike_items">
+                <a href="detail.html"><img src="images/phone.jpg" alt="phone"></a>
+                    <ul>
+                            <li><b>Iphone 20</b></li>
+                            <li>Apple</li>
+                            <li>&#8358;50,000</li>
+                            <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+                </div>
+
+                <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/women_shoe.jpg" alt="women_shoe"></a>
+                    <ul>
+                         <li><b>Red shoe</b></li>
+                         <li>addidass</li>
+                         <li class="text-danger">&#8358;10,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+
+              <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/nba_2k19.jpg" alt="nba_2k19"></a>
+                    <ul>
+                         <li><b>nba_2k19</b></li>
+                         <li>playstation</li>
+                         <li class="text-danger">&#8358;5,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+             
+                <div class="mightLike_items">
+                     <a href="detail.html"><img src="images/women_shoe1.jpg" alt="women_shoe1"></a>
+                     <ul>
+                          <li><b>women shoe</b></li>
+                          <li>shantel</li>
+                          <li class="text-danger">&#8358;6,000</li>
+                          <li><b class="ratings">ratings 10/10</b></li>
+                     </ul>
+               </div>
+
+                <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/madden.jpg" alt="madden"></a>
+                    <ul>
+                         <li><b>madden</b></li>
+                         <li>playstation</li>
+                         <li class="text-danger">&#8358;4,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+            </div>
+       </div>
+
+       <!-- might like for desktop -->
+       <div class="container mightLike_destop">
+           <h3>Products you might also Like...</h3>
+            <div class="row">
+       
+            <div class="mightLike_items">
+             <a href="detail.html"><img src="images/laptop.jpg" alt=""></a>
+                   <ul>
+                        <li><b>HP laptop</b></li>
+                        <li>HP</li>
+                        <li>&#8358;130,000</li>
+                        <li><b class="ratings">ratings 10/10</b></li>
+                   </ul>
+             </div>
+
+             <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/women_shoe.jpg" alt="women_shoe"></a>
+                    <ul>
+                         <li><b>Red shoe</b></li>
+                         <li>addidass</li>
+                         <li class="text-danger">&#8358;10,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+              <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/palm_slippers.jpg" alt="palm_slippers"></a>
+                    <ul>
+                         <li><b>Nike slippers</b></li>
+                         <li>Nike</li>
+                         <li class="text-danger">&#8358;3,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+ 
+              <div class="mightLike_items">
+                     <a href="detail.html"><img src="images/women_shoe1.jpg" alt="women_shoe1"></a>
+                     <ul>
+                          <li><b>women shoe</b></li>
+                          <li>shantel</li>
+                          <li class="text-danger">&#8358;6,000</li>
+                          <li><b class="ratings">ratings 10/10</b></li>
+                     </ul>
+               </div>
+ 
+ 
+               <div class="mightLike_items">
+                     <a href="detail.html"><img src="images/nba_2k19.jpg" alt="nba_2k19"></a>
+                     <ul>
+                          <li><b>nba_2k19</b></li>
+                          <li>playstation</li>
+                          <li class="text-danger">&#8358;5,000</li>
+                          <li><b class="ratings">ratings 10/10</b></li>
+                     </ul>
+               </div>
+ 
+               <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/madden.jpg" alt="madden"></a>
+                    <ul>
+                         <li><b>madden</b></li>
+                         <li>playstation</li>
+                         <li class="text-danger">&#8358;4,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+              <div class="mightLike_items">
+                    <a href="detail.html"><img src="images/pad_4.jpg" alt="pad_4"></a>
+                    <ul>
+                         <li><b>pad</b></li>
+                         <li>playstation</li>
+                         <li class="text-danger">&#8358;5,000</li>
+                         <li><b class="ratings">ratings 10/10</b></li>
+                    </ul>
+              </div>
+
+              <div class="mightLike_items">
+                   <a href="detail.html"><img src="images/levis-shoes.jpg" alt="levis-shoes"></a>
+                   <ul>
+                        <li><b>Black convers</b></li>
+                        <li>chinos</li>
+                        <li class="text-danger">&#8358;6,000</li>
+                        <li><b class="ratings">ratings 10/10</b></li>
+                   </ul>
+             </div>
+            </div>
+       </div>
+             
+       <div class="question">
+          <h6>Have a question?</h6>
+            <form action="">
+                <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" class="form-control" value="" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" class="form-control" value="" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Message:</label>
+                    <textarea name="message" id="message" class="form-control"cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="form-control btn btn-primary">Question</button>
+                </div>
+
+            </form>
+       </div>
+
+       <footer>
+        <div class="backToTop"><p>Back To Top</p></div>
+        <div class='footer'>
+          <p>charles shopping place &copy; 2019, Alright Reserved</p>
+        </div>
+   </footer>
+ 
+
+</body>
+   </html>

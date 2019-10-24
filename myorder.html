@@ -1,0 +1,181 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>my order</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <script src="js/bootstrap.min.js"></script> 
+  <script src="js/jquery-3.3.1.js"></script>
+ 
+ <!-- <link href="{{ asset('bootstrap_3.0.3/css/bootstrap.min.css') }}" rel="stylesheet" id="bootstrap-css"> 
+<script src="{{asset('bootstrap_3.0.3/js/bootstrap.min.js') }}"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- @yield("stripe-js") -->
+  </head>
+
+  <!-- navigation -->
+        <section>
+                <div class="navigataion">
+                    <div class="logo">
+                        <h6>ShopGood</h6>
+                        <div class="images">
+                            
+                            <img src="images/profile-image.png" alt="profile-image">
+                        </div>
+                    </div>
+                        <div class="search-bar">
+                            <input type="text" name="search" value="" class="form-control" placeholder="Search for products">
+                            <a href="">search</a>
+                        </div>
+                    <div class="links">
+                        <a href="home.html" style="">Home</a>
+                        <a href="product.html" style="">Product</a>
+                        <a href="myorder.html" style="">My Order</a>
+                        <a href="cart.html" style="">Cart</a>
+                        <a href="signup.html"  style="">sign up</a>
+                        <a href="login.html"  style="">login</a>
+                
+                    </div>
+                </div> 
+
+                <div class="nav-header">
+                        <div class="header">
+                        <h1>Boogie Best Shopping </h1>
+                        <p>Our most popular products based on sales. Updated hourly.</p>
+                        </div>
+                </div>
+        </section>
+<!-- end of Navigation -->
+
+        <div class="container-order">   
+            <div class="banner">
+                <h6>Welcome, example@gmail.com</h6>
+            </div>
+      
+            <div class="content-head">
+               <h6>My Orders</h6>
+                            <div class="content-body">
+                                <img src="images/women_shoe.jpg" alt="women_shoe">
+                                <ul>
+                                    <li><b>Red cover shoe</b></li>
+                                    <li>Women shoe</li>
+                                    <li>this is an awesome product</li>
+                                </ul>
+                            </div>
+                            <div class="content-body">
+                                    <img src="images/nba_2k20.jpg" alt="nba_2k20">
+                                    <ul>
+                                        <li><b>Nba_2k20</b></li>
+                                        <li>Playstation</li>
+                                        <li>this is an awesome game product</li>
+                                    </ul>
+                             </div>
+                             <div class="content-body">
+                                    <img src="images/laptop.jpg" alt="laptop">
+                                    <ul>
+                                        <li><b>HP laptop</b></li>
+                                        <li>HP</li>
+                                        <li>this is an awesome laptop product</li>
+                                    </ul>
+                             </div>
+    
+    
+            </div>
+        </div>  
+        <div class="container-detail">  
+            <div class="banner">
+                <h6>Account Details</h6>
+            </div>
+             <div class="container account-details">
+             <div class="alertForm"></div> 
+                <form action="" method="post">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control"  name="name" value="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Surname:</label>
+                            <input type="text" class="form-control" name="surname" value="Enter surname">
+                        </div>
+                        <div class="form-group">
+                            <label for="surnamee">email:</label>
+                            <li>example@gmail.com</li>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone:</label>
+                            <input type="text" class="form-control" name="phone_one" value="Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender" style="color: orange">Gender:</label>
+                            <select name="gender" id="gender" class="form-control">
+                                <option value="" >Select</option>
+                                <option value="male" >Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                        <button type="submit" name="submit" class="form-control btn btn-info">Save</button>
+                        </div>
+                </form>
+        </div>
+
+         <div class="container-address">
+                <div class="banner">
+                    <h6>Address</h6>
+                </div>
+                <div class="container address-details">
+                        <h5>john doe</h5>
+                        <p>Address: 76 Ibm cent fedinand crecent</p>
+                        <ul>
+                            <li>phone: +009 12345678 / +2348098765432</li>
+                        </ul>
+                        <div class="container-default">
+                            <li>default Address</li>
+                        <a href="address.html">Edit..</a>
+                        </div>
+                </div>
+            
+                    <div class="container itemOrder_address">
+                        <h6>Address on Order</h6>
+                       <div class="address">
+                            <h5>john doe</h5>
+                            <p>76 Ibm cent fedinand crecent, lagos, Nigeria.</p>
+                            <li class="edit"><a href="address.html">Edit..</a></li> 
+                        </div>
+                        <div class="address">
+                                <h5>john doe</h5>
+                                <p>76 Ibm cent fedinand crecent, lagos, Nigeria.</p>
+                                <li class="edit"><a href="address.html">Edit..</a></li> 
+                            </div>
+                    </div>
+
+            
+        </div>
+
+
+
+        <footer>
+                <div class="backToTop"><p>Back To Top</p></div>
+                <div class='footer'>
+                  <p>charles shopping place &copy; 2019, Alright Reserved</p>
+                </div>
+           </footer>
+         
+        </body>
+     </html>
+     
+             
+
+  @endsection
+
+
+  
+ 

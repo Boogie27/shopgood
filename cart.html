@@ -1,0 +1,265 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+      <title>cart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>cart</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <script src="js/bootstrap.min.js"></script> 
+  <script src="js/jquery-3.3.1.js"></script>
+ 
+ <!-- <link href="{{ asset('bootstrap_3.0.3/css/bootstrap.min.css') }}" rel="stylesheet" id="bootstrap-css"> 
+<script src="{{asset('bootstrap_3.0.3/js/bootstrap.min.js') }}"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- @yield("stripe-js") -->
+  </head>
+
+  <!-- navigation -->
+        <section>
+                <div class="navigataion">
+                    <div class="logo">
+                        <h6>ShopGood</h6>
+                        <div class="images">
+                            
+                            <img src="images/profile-image.png" alt="profile-image">
+                        </div>
+                    </div>
+                        <div class="search-bar">
+                            <input type="text" name="search" value="" class="form-control" placeholder="Search for products">
+                            <a href="">search</a>
+                        </div>
+                    <div class="links">
+                        <a href="home.html" style="">Home</a>
+                        <a href="product.html" style="">Product</a>
+                        <a href="myorder.html" style="">My Order</a>
+                        <a href="cart.html" style="">Cart</a>
+                        <a href="signup.html"  style="">sign up</a>
+                        <a href="login.html"  style="">login</a>
+                
+                    </div>
+                </div> 
+
+                <div class="nav-header">
+                        <div class="header">
+                        <h1>Boogie Best Shopping </h1>
+                        <p>Our most popular products based on sales. Updated hourly.</p>
+                        </div>
+                </div>
+        </section>
+<!-- end of Navigation -->
+
+<section class="cart">
+    <div class="cartBanner">My Shopping Cart </div>      
+         <div class="contaner">
+           <div class="alertForm"></div> 
+           <h6 class="head">Cart items (3)</h6> 
+           <div class="cartContainer">
+                  <div class="cartItems">
+                      <a href="detail.html"><img src="images/women11.jpg" alt=""></a>
+                      <ul>
+                          <li>Pink dress</li>
+                          <li>Eligant and cute</li>
+                          <li class="text-danger"><b>&#8358;18,000</b></li>
+                          <li><b class="ratings">ratings 10/10 </b></li>
+                      </ul>
+                      <div class="anchor-button">
+                          <ul>
+                            <li> <a href="">Save for later</a></li> 
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="container">
+                        <div class="cart-button button-button">
+                            <li class="quantity">Quantity: <b class="badge bg-warning">1</b></li>
+                            <li class="anchor">
+                                <a href="" class="reduce">Reduce</a>
+                                <a href="" class="add">Add</a>
+                            </li>
+                            <li class="remove"><a href="" >Remove</a></li>
+                        </div>
+                  </div> 
+            </div>  
+
+            <div class="cartContainer">
+                  <div class="cartItems">
+                        <a href="detail.html"><img src="images/socom.jpg" alt="socom"></a>
+                        <ul>
+                            <li>Socom</li>
+                            <li>Amry game</li>
+                            <li class="text-danger"><b>&#8358;5,000</b></li>
+                            <li><b class="ratings">ratings 10/10 </b></li>
+                        </ul>
+                        <div class="anchor-button">
+                            <ul>
+                              <li> <a href="">Save for later</a></li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container">
+                          <div class="cart-button button-button">
+                              <li class="quantity">Quantity: <b class="badge bg-warning">1</b></li>
+                              <li class="anchor">
+                                  <a href="" class="reduce">Reduce</a>
+                                  <a href="" class="add">Add</a>
+                              </li>
+                              <li class="remove"><a href="" >Remove</a></li>
+                          </div>
+                    </div> 
+               </div>
+
+               <div class="cartContainer">    
+                     <div class="cartItems">
+                            <a href="detail.html"><img src="images/shoe_5.jpg" alt="shoe_5"></a>
+                            <ul>
+                                <li>nike shoe</li>
+                                <li>cool and unique</li>
+                                <li class="text-danger"><b>&#8358;24,000</b></li>
+                                <li><b class="ratings">ratings 10/10 </b></li>
+                            </ul>
+                            <div class="anchor-button">
+                                <ul>
+                                  <li> <a href="">Save for later</a></li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="container">
+                              <div class="cart-button button-button">
+                                  <li class="quantity">Quantity: <b class="badge bg-warning">1</b></li>
+                                  <li class="anchor">
+                                      <a href="" class="reduce">Reduce</a>
+                                      <a href="" class="add">Add</a>
+                                  </li>
+                                  <li class="remove"><a href="" >Remove</a></li>
+                              </div>
+                        </div> 
+                     </div>
+              </div>
+        
+
+              <div class="checkout-container">
+                    <li>Total: <b>&#8358;32,000</b></li>
+                    <div class="checkout">
+                        <a href="checkout.html">Checkout</a>
+                    </div>
+              </div>
+
+
+    <!-- SAVE FOR LATER -->
+         <div class="container">
+            <div class="save-for-later cartContainer line-disapear"><hr>
+               <div class="header">
+                    <h5>Save For Later...(1 items)</h5>
+                    <li>Items in save for later can not be purchased but are saved for later</li>
+               </div>
+                    <div class="cartItem items">
+                        <a href="detail.html"><img src="images/headset_1.jpg" alt=""></a>
+                        <ul class="detail">
+                            <li>Head set</li>
+                            <li>Bit By Dray</li>
+                            <li>price: <b>&#8358;6,000</b></li>
+                            <li><b class="ratings">ratings 10/10 </b></li>
+                        </ul>
+                        <div class="anchor-button">
+                            <ul>
+                                <li> <a href="">view more</a></li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="button-button saveBotton">
+                        <li>Quantity: <b class="badge bg-warning">1</b></li>
+                         <li > <a href="" class="add">Add to Cart</a></li>
+                         <li class="remove"><a href="" >Remove</a></li>
+                    </div>  
+        
+                  <li class="total">Total: <b>&#8358;6,000</b></li>          
+                </div>
+      
+         </div>
+
+</section>
+  
+    
+            <div class="container mightLike cart-mightLike">
+                    <h3>Products you might also Like...</h3>
+                        <div class="row">
+                                <div class="mightLike_items">
+                                        <a href="detail.html"><img src="images/phone.jpg" alt="phone"></a>
+                                            <ul>
+                                                    <li><b>IPhone 20</b></li>
+                                                    <li>Iphone</li>
+                                                    <li>&#8358;404,000</li>
+                                                    <li><b class="ratings">ratings 10/10</b></li>
+                                            </ul>
+                            </div>
+
+                            <div class="mightLike_items">
+                                    <a href="detail.html"><img src="images/pad_1.jpg" alt="pad_1"></a>
+                                        <ul>
+                                                <li><b>Pad</b></li>
+                                                <li>Playstation</li>
+                                                <li>&#8358;4,000</li>
+                                                <li><b class="ratings">ratings 10/10</b></li>
+                                        </ul>
+                           </div>
+
+                           <div class="mightLike_items">
+                                <a href="detail.html"><img src="images/laptop.jpg" alt=""></a>
+                                      <ul>
+                                           <li><b>HP laptop</b></li>
+                                           <li>HP</li>
+                                           <li>&#8358;130,000</li>
+                                           <li><b class="ratings">ratings 10/10</b></li>
+                                      </ul>
+                                </div>
+                   
+                                <div class="mightLike_items">
+                                       <a href="detail.html"><img src="images/women_shoe.jpg" alt="women_shoe"></a>
+                                       <ul>
+                                            <li><b>Red shoe</b></li>
+                                            <li>addidass</li>
+                                            <li class="text-danger">&#8358;10,000</li>
+                                            <li><b class="ratings">ratings 10/10</b></li>
+                                       </ul>
+                                 </div>
+
+                           <div class="mightLike_items">
+                                <a href="detail.html"><img src="images/phone.jpg" alt="phone"></a>
+                                    <ul>
+                                            <li><b>Iphone 20</b></li>
+                                            <li>Apple</li>
+                                            <li>&#8358;50,000</li>
+                                            <li><b class="ratings">ratings 10/10</b></li>
+                                    </ul>
+                                </div>
+
+                                <div class="mightLike_items">
+                                        <a href="detail.html"><img src="images/spiderman.jpg" alt="spiderman"></a>
+                                            <ul>
+                                                    <li><b>spiderman</b></li>
+                                                    <li>Playstation</li>
+                                                    <li>&#8358;4,000</li>
+                                                    <li><b class="ratings">ratings 10/10</b></li>
+                                            </ul>
+                            </div>
+                        </div>
+                </div>
+        
+  
+                <footer>
+                        <div class="backToTop"><p>Back To Top</p></div>
+                        <div class='footer'>
+                          <p>charles shopping place &copy; 2019, Alright Reserved</p>
+                        </div>
+                   </footer>
+    
+        </body>
+ </html>
